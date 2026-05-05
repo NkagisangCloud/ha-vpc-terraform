@@ -1,0 +1,15 @@
+# Terraform state files — never commit these
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variables — never commit these
+terraform.tfvars
+
+# SSH keys — never commit these
+*.pem
+*.key
+
+# OS files
+.DS_Store
